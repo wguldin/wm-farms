@@ -1,0 +1,59 @@
+$primary-color: #901414;
+
+body {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.header {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    display: flex;
+    align-items: center;
+    padding: 2em;
+}
+
+.header__logo {
+    width: 4.2em;
+}
+
+.header__title {
+    font-family: 'Overpass', sans-serif;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-top: .5em;
+    font-weight: 300;
+    border: solid rgba($primary-color, .3);
+    border-width: 0 1px;
+    padding: 0;
+    line-height: 1.4;
+    letter-spacing: -3px;
+}
+
+figure {
+    width: 50%;
+    margin: 0;
+}
+
+.sr-only {
+    border: 0; 
+    clip: rect(0 0 0 0); 
+    height: 1px; 
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.button {
+    display: inline-block;
+    background-color: $primary-color;
+    color: white;
+    padding: .2em .5em;
+    text-decoration: none;
+
+    &:hover {
+        background-color: darken($primary-color, 5%);
+    }
+}
