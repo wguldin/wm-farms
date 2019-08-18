@@ -1,8 +1,30 @@
 {
-  "dependencies": {
-    "node-sass": "^4.12.0"
+  "name": "wm-farms",
+  "version": "1.0.0",
+  "description": "Site for WM Farms",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1",
+    "gulp-uglify": "^1.5.3",
+    "sass": "^0.5.0"
   },
   "scripts": {
-    "scss": "node-sass scss -o css"
-  }
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wguldin/wm-farms.git"
+  },
+  "author": "Will Guldin",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/wguldin/wm-farms/issues"
+  },
+  "homepage": "https://github.com/wguldin/wm-farms#readme"
 }
