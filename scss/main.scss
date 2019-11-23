@@ -1,3 +1,5 @@
+@import "_normalize";
+
 $primary-color: #901414;
 $secondary-color: hsl(33, 41%, 97%);
 $grey-color: hsl(35, 10%, 40%);
@@ -43,7 +45,6 @@ img {
 article {
     display: grid; 
     grid-template-columns: 1fr 1fr;
-    grid-row-gap: 3em;
     margin: 0 5% 2em;
 
     section {
@@ -125,6 +126,6 @@ figure {
 }
 
 .main__cta {
-    margin-top: 1rem;
+    margin: 1rem 0 3rem; 
     font-size: 1.1em;
 }
